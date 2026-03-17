@@ -21,6 +21,9 @@ export default defineNuxtConfig({
       markdown: {
         toc: {
           searchDepth: 1
+        },
+        highlight: {
+          langs: ['php', 'bash', 'json', 'ini']
         }
       }
     }
@@ -56,12 +59,12 @@ export default defineNuxtConfig({
   },
 
   llms: {
-    domain: 'https://docs-template.nuxt.dev/',
-    title: 'Nuxt Docs Template',
-    description: 'A template for building documentation with Nuxt UI and Nuxt Content.',
+    domain: 'https://laravel-passkeys.xefi.dev/',
+    title: 'Laravel Passkeys API',
+    description: 'Documentation for the Laravel Passkeys API package — add WebAuthn passkey authentication to your Laravel application.',
     full: {
-      title: 'Nuxt Docs Template - Full Documentation',
-      description: 'This is the full documentation for the Nuxt Docs Template.'
+      title: 'Laravel Passkeys API - Full Documentation',
+      description: 'Complete documentation for the Laravel Passkeys API package.'
     },
     sections: [
       {
@@ -72,16 +75,23 @@ export default defineNuxtConfig({
         ]
       },
       {
-        title: 'Essentials',
+        title: 'API Reference',
         contentCollection: 'docs',
         contentFilters: [
-          { field: 'path', operator: 'LIKE', value: '/essentials%' }
+          { field: 'path', operator: 'LIKE', value: '/api%' }
+        ]
+      },
+      {
+        title: 'Advanced',
+        contentCollection: 'docs',
+        contentFilters: [
+          { field: 'path', operator: 'LIKE', value: '/advanced%' }
         ]
       }
     ]
   },
 
   mcp: {
-    name: 'Docs template'
+    name: 'Laravel Passkeys API'
   }
 })
