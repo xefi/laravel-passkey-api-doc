@@ -23,7 +23,7 @@ export default defineNuxtConfig({
           searchDepth: 1
         },
         highlight: {
-          langs: ['php', 'bash', 'json', 'ini']
+          langs: ['php', 'bash', 'json', 'ini', 'js', 'javascript']
         }
       }
     }
@@ -59,12 +59,12 @@ export default defineNuxtConfig({
   },
 
   llms: {
-    domain: 'https://laravel-passkeys.xefi.dev/',
-    title: 'Laravel Passkeys API',
-    description: 'Documentation for the Laravel Passkeys API package — add WebAuthn passkey authentication to your Laravel application.',
+    domain: 'https://laravel-Passkey.xefi.dev/',
+    title: 'Laravel Passkey API',
+    description: 'Documentation for the Laravel Passkey API package — add WebAuthn passkey authentication to your Laravel application.',
     full: {
-      title: 'Laravel Passkeys API - Full Documentation',
-      description: 'Complete documentation for the Laravel Passkeys API package.'
+      title: 'Laravel Passkey API - Full Documentation',
+      description: 'Complete documentation for the Laravel Passkey API package.'
     },
     sections: [
       {
@@ -92,6 +92,6 @@ export default defineNuxtConfig({
   },
 
   mcp: {
-    name: 'Laravel Passkeys API'
+    name: 'Laravel Passkey API'
   }
 })

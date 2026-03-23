@@ -12,10 +12,10 @@ export default defineAppConfig({
     }
   },
   seo: {
-    siteName: 'Laravel Passkeys API'
+    siteName: 'Laravel Passkey API'
   },
   header: {
-    title: 'Laravel Passkeys API',
+    title: 'Laravel Passkey API',
     to: '/',
     logo: {
       alt: '',
@@ -38,7 +38,7 @@ export default defineAppConfig({
       'icon': 'i-simple-icons-github',
       'to': 'https://github.com/xefi/laravel-passkeys-api',
       'target': '_blank',
-      'aria-label': 'Laravel Passkeys API on GitHub'
+      'aria-label': 'Laravel Passkey API on GitHub'
     }]
   },
   toc: {

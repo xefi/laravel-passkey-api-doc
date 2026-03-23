@@ -1,6 +1,6 @@
 ---
 seo:
-  title: Laravel Passkeys API
+  title: Laravel Passkey API
   description: Add WebAuthn passkey authentication to your Laravel application in minutes.
 ---
 
@@ -12,7 +12,7 @@ orientation: horizontal
 :hero-background
 
 #title
-WebAuthn Passkeys [API]{.text-primary} for Laravel.
+WebAuthn Passkey [API]{.text-primary} for Laravel.
 
 #description
 A ready-to-use REST API for WebAuthn passkey authentication in your Laravel application. Drop-in endpoints for registration, verification, and authentication — no custom controllers needed.
@@ -114,7 +114,7 @@ Everything you need for passwordless auth
   Eloquent Model
 
   #description
-  Passkeys are stored in your database using an Eloquent model. The HasPasskeys trait wires everything up automatically.
+  Passkey is stored in your database using an Eloquent model. The HasPasskeys trait wires everything up automatically.
   :::
 
   :::u-page-feature
