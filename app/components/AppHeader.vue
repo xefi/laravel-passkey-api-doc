@@ -29,6 +29,11 @@ const { header } = useAppConfig()
         class="h-6 w-auto shrink-0"
       />
 
+      <template v-if="(header?.logo?.dark || header?.logo?.light) && header?.title">
+        <div class="w-px h-5 mx-2 bg-zinc-300 dark:bg-zinc-600 shrink-0" />
+        <span class="text-sm font-semibold text-gray-900 dark:text-white truncate">{{ header.title }}</span>
+      </template>
+
       <span v-else-if="header?.title">
         {{ header.title }}
       </span>
