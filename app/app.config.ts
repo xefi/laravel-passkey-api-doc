@@ -1,8 +1,8 @@
 export default defineAppConfig({
   ui: {
     colors: {
-      primary: 'green',
-      neutral: 'slate'
+      primary: 'red',
+      neutral: 'zinc'
     },
     footer: {
       slots: {
@@ -18,9 +18,9 @@ export default defineAppConfig({
     title: 'Laravel Passkey API',
     to: '/',
     logo: {
-      alt: '',
-      light: '',
-      dark: ''
+      alt: 'Xefi',
+      light: '/xefi-light.svg',
+      dark: '/xefi-dark.svg'
     },
     search: true,
     colorMode: true,
